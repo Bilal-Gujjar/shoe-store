@@ -1,19 +1,16 @@
 import React from 'react'
 import { Link,} from 'react-router-dom'
-
-
+import Product from '../Product/Product'
+//import Details from '../Details/Details'
 
 function Home() {
     return (
         <div  className ="App-header">
            <h1>Welcome to Home Page</h1> <div>
            <h1>Chose the Brand</h1></div>
-           <button >  <Link path to = '../Product'>Nike</Link></button>
-           <hr/>
-           <button>  <Link path to = '../Product'>GUCCi</Link></button>
-           <hr/>
-           <button>  <Link path to = '../Product'>Adidas</Link></button>
-           <hr/>
+           <button>  <Link path to = '../Product'>Nike</Link></button>{''}
+           <button>  <Link path to = '../Product'>GUCCi</Link></button>{''}
+           <button>  <Link path to = '../Product'>Adidas</Link></button>{''}
            <button>  <Link path to = '../Product'>Jordan</Link></button>
         
             

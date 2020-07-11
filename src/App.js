@@ -8,16 +8,19 @@ import Product from './Components/Product/Product';
 import Details from './Components/Details/Details'
 import Notfound from './Components/Notfound/Notfound'
 import ProductIndex from './Components/ProductIndex/ProductIndex';
+import Contact from './Components/Contact.js/Contact';
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter >
       <Headers></Headers>
       <Routes>
-        <Route path='/' element={<Home />}> </Route>
+      <Route path='/' element={<Home />}> </Route>
+        <Route path='home' element={<Home />}> </Route>
         <Route path='product' element={<Product />}>
           <Route path='/' element={<ProductIndex />}></Route>
           <Route path=':productID' element={<Details />}></Route>
         </Route>
+        <Route path = 'contact' element ={<Contact/>}></Route>
         <Route path='*' element={<Notfound />}></Route>
       </Routes>
 
