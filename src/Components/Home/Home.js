@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link,} from 'react-router-dom'
-import Product from '../Product/Product'
+//import Product from '../Product/Product'
 //import Details from '../Details/Details'
 
 function Home() {
@@ -8,12 +8,20 @@ function Home() {
         <div  className ="App-header">
            <h1>Welcome to Home Page</h1> <div>
            <h1>Chose the Brand</h1></div>
-           <button>  <Link path to = '../Product'>Nike</Link></button>{''}
-           <button>  <Link path to = '../Product'>GUCCi</Link></button>{''}
-           <button>  <Link path to = '../Product'>Adidas</Link></button>{''}
-           <button>  <Link path to = '../Product'>Jordan</Link></button>
-        
-            
+           <h2>
+             <Link path to = '../Product'>Nike</Link>{''}
+    
+             </h2>
+             <h3>
+            <Link path to = '../Product'>GUCCi</Link>
+            </h3>
+            <h4>
+             <Link path to = '../Product'>Adidas</Link>
+             </h4>
+           <h5>
+             <Link path to = '../Product'>Jordan</Link>
+           
+        </h5>
            
            
          
