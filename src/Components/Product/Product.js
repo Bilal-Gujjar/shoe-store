@@ -7,8 +7,8 @@ function Product() {
 
 
     return (
-        <div>
-            <h4>Products </h4>
+        <div >
+            <h4 className = 'GB'>Products </h4>
 
             <Outlet/>
     

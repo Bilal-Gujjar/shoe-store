@@ -19,7 +19,7 @@ const ProductIndex = () => {
     }
   };
   return (
-    <div>
+    <div className = ' BR'>
       <ul>
         {Object.entries(shoes).map(([productID, { name, img }]) => (
           <li key={productID}>

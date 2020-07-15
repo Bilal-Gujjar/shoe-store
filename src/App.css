@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color:pink;
+  background-color:violet;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -37,7 +37,7 @@
   }
 }
 .HD {
-  background-color:greenyellow;
+  background-color:gray;
   
   display: flex;
   ;
@@ -45,4 +45,24 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color:black ;
+}
+.BR{
+  background-color: thistle;
+  font-size: x-large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color:black ;
+
+}
+.GB{
+  background-color: blue;
+  font-size: x-large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color:black ;
+
 }

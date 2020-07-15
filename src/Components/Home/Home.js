@@ -8,18 +8,18 @@ function Home() {
         <div  className ="App-header">
            <h1>Welcome to Home Page</h1> <div>
            <h1>Chose the Brand</h1></div>
-           <h2>
-             <Link path to = '../Product'>Nike</Link>{''}
+           <h2 >
+             <Link path to = '../Product'>  NIKE</Link>{''}
     
-             </h2>
+             </h2 >
              <h3>
-            <Link path to = '../Product'>GUCCi</Link>
+            <Link path to = '../Product'>GUCCI</Link>
             </h3>
             <h4>
-             <Link path to = '../Product'>Adidas</Link>
-             </h4>
-           <h5>
-             <Link path to = '../Product'>Jordan</Link>
+             <Link path to = '../Product'>ADIDIAS</Link>
+             </h4 >
+           <h5 >
+             <Link path to = '../Product'>JORDAN</Link>
            
         </h5>
            
