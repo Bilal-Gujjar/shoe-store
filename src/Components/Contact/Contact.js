@@ -1,9 +1,11 @@
+
 import React from 'react'
 
 function Contact() {
     return (
         <div>
-            Hello At the page of conatct
+            <h1>For more information check</h1>
+            
         </div>
     )
 }

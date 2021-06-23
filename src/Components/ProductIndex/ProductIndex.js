@@ -19,12 +19,12 @@ const ProductIndex = () => {
     }
   };
   return (
-    <div className = ' BR'>
-      <ul>
+    <div className="brand" >
+      <ul >
         {Object.entries(shoes).map(([productID, { name, img }]) => (
           <li key={productID}>
-            <Link to={productID}>
-              <h2>{name}</h2>
+            <Link  to={productID}>
+              <h2  >{name}</h2>
               <img src={img} alt={name} />
             </Link>
 
