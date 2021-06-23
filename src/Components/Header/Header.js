@@ -6,12 +6,12 @@ function Header() {
     return (
         
         <nav className = "header">
-          <a className="logo"> <Link to ='/'>Shoe Store</Link></a>
+           <Link to ='/' className="logo">Shoe Store</Link>
            <div className='header-right'>
                
-           <a className="active"> <Link to = 'home'>Home</Link></a>
-            <a><Link to = 'product'>Products And Other</Link> </a>
-            <a><Link to = 'contact'>Contact</Link></a>
+           <Link to = 'home'>Home</Link>
+            <Link to = 'product'>Products And Other</Link> 
+            <Link to = 'contact'>Contact</Link>
            
             </div>
            
