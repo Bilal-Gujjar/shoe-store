@@ -6,13 +6,11 @@ import { Link, } from 'react-router-dom'
 function Home() {
   return (
     <div >
-      <h1 className="App-header">Welcome to Home Page</h1>
-        <h1 className="App-header">Chose the Brand</h1>
+        <h1 className="App-header">Choose the Brand</h1>
         <div className="div">
         <Link className="brand"  path to='../Product'> NIKE</Link>
         <Link className="brand" path to='../Product'>GUCCI</Link>
         <Link className="brand" path to='../Product'>ADIDIAS</Link>
-        <Link className="brand"path to='../Product'>JORDAN</Link>
         </div>
     </div>
 
