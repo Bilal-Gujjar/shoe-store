@@ -9,6 +9,8 @@ import Details from './Components/Details/Details'
 import Notfound from './Components/Notfound/Notfound'
 import ProductIndex from './Components/ProductIndex/ProductIndex';
 import Contact from './Components/Contact/Contact'
+import Footer from './Components/Footer/Footer';
+
 
 function App() {
   return (
@@ -24,6 +26,7 @@ function App() {
         <Route path ='contact' element={<Contact/>}/>
         <Route path='*' element={<Notfound />}/>
       </Routes>
+      <Footer/>
     </BrowserRouter>
   );
 }

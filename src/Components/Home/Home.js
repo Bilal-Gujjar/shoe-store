@@ -4,6 +4,7 @@ import Nike from '../../images/Nike.svg'
 import Adidas from '../../images/adidas.svg'
 import Gucci from '../../images/gucci.svg'
 import Bata from '../../images/bata.svg'
+
 //import Product from '../Product/Product'
 //import Details from '../Details/Details'
 
@@ -14,7 +15,7 @@ function Home() {
 
       <div className='column'>
         <div className='card'>
-          <img src={Nike} alt='logo' width="250" height="400" />
+          <img src={Nike} alt='logo' width="250" height="390" />
           <Link className='font' path to='../Product'> NIKE</Link>
           
         </div>
@@ -37,6 +38,8 @@ function Home() {
         <img src={Bata} alt='logo' width="250" height="400" />
           <Link className='font' path to='../Product'>BATA</Link></div>
       </div>
+      
+    
     </div>
   )
 }

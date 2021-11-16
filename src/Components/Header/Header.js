@@ -2,9 +2,11 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 
+
+
 function Header() {
     return (
-
+<div>
         <nav className="header">
             <Link to='/' className="logo">Shoe Store</Link>
             <div className='header-right'>
@@ -13,6 +15,9 @@ function Header() {
                 <Link to='contact'>Contact</Link>
             </div>
         </nav>
+       
+        </div>   
+       
     )
 }
 
