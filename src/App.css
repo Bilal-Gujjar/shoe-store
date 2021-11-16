@@ -98,7 +98,7 @@ body {
   min-height: 20vh;
   border-radius: 20px;
   align-items: center;
-
+  margin-top: 15px;
 }
 .btn{
   appearance: button;
