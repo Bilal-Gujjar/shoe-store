@@ -189,3 +189,15 @@ input[type=submit]:hover {
   clear: both;
   
 }
+.dcard{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  text-align: center;
+  background-color: #cb71e6;
+  border-radius: 20px;
+  margin-top: 15px;
+  
+}
+.clear{
+ 
+}
