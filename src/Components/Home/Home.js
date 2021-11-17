@@ -24,13 +24,13 @@ function Home() {
       <div className='column'>
         <div className='card'>
         <img src={Adidas} alt='logo' width="250" height="400"/>
-          <Link className='font' path to='../Product'>GUCCI</Link>
+          <Link className='font' path to='../Product'>ADIDIAS</Link>
         </div>
       </div>
       <div className='column'>
         <div className='card'>
         <img src={Gucci} alt='logo' width="250" height="400" />
-          <Link className='font' path to='../Product'>ADIDIAS</Link></div>
+          <Link className='font' path to='../Product'>GUCCI</Link></div>
       </div>
       
       <div className='column'>
