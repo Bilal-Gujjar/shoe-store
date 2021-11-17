@@ -5,8 +5,11 @@ function Notfound() {
 
     return (
         <div>
-            <h3>404-Error Page Not Found</h3>
-        </div>
+    <h1>
+    404 Page Not Found
+        Sorry, the page you are looking for does not exist.
+        </h1>
+      </div>
     )
 }
 
