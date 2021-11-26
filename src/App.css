@@ -105,7 +105,7 @@ body {
   background-color: #080808;
   color: rgb(248, 248, 248);
   cursor: pointer;
-  height: 44px;
+  height: auto;
   border-radius: 20px;
   margin: 16px 0 0;
   font-size: 20px;
@@ -114,7 +114,7 @@ body {
   text-align: center;
   text-transform: none;
   margin-left: 10px;
-  width: 20%;
+  
 }
 .footer-note{
   text-align: center;
@@ -197,7 +197,4 @@ input[type=submit]:hover {
   border-radius: 20px;
   margin-top: 15px;
   
-}
-.clear{
- 
 }
