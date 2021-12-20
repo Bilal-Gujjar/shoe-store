@@ -27,7 +27,10 @@ function Footer() {
             > GitHub</button>
             </div>
             
-            <h1 className='footer-note'>Developed by Bilal Gujjar</h1>
+            <div style={{textAlign:'right'}}>
+            <h1>Developed by Bilal Gujjar</h1>
+            </div>
+            
             
         </footer>
     )
