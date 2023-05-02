@@ -12,7 +12,7 @@ function Footer() {
                 type="button"
                 onClick={(e) => {
                     e.preventDefault();
-                    window.location.href = 'https://www.facebook.com/bilalgujjaroffical/';
+                    window.location.href = '';
                 }}
             > facebook</button>
             <div>
